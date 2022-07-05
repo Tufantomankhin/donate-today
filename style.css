@@ -1,3 +1,29 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+.flexible-container{
+    display: flex;
+    background-repeat: no-repeat;
+    background-position:0em
+    margin-bottom: 150px;
+}
+.div-class{
+    text-align: center;
+}
+.link-button{
+    text-decoration: none;
+    text-align: center;
+}
+.top-banner{
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+
+}
