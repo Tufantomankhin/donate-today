@@ -95,9 +95,6 @@ hr{
     width: 55%;
     background-color: #999;
 }
-.donate-plane{
-
-}
 .donate-type-container{
     display: flex;
     flex-direction: row;
@@ -126,16 +123,32 @@ hr{
 }
 .contribute-donation{
     display: flex;
+    flex-direction: column;
     margin-bottom: 150px;
-
+    font-size: 20px;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 5px;
+}
+.contribute-p{
+    width: 500px;
+    margin-bottom: auto;
+}
+.contribute-btn,
+.survive-btn{
+    background-color: tomato;
+    align-items: stretch;
 }
 .contribute-text1{
     float:left;
 }
 .contribute-img1{
-    float:right
+    float:right;
 }
 .contribute-text2{
-    float:right
+    float:right;
+}
+.contribute-img2{
+    float: left;
 }
     
