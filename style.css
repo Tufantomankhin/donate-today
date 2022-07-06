@@ -151,4 +151,37 @@ hr{
 .contribute-img2{
     float: left;
 }
-    
+.get-update{
+    display: inline-block;
+    margin-bottom: 0px;
+    width: 500px;
+    text-align: center;
+}
+.update-hp{
+    display: flex;
+    flex-direction: block;
+    padding: 100px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: stretch;
+}
+.subscribe-email{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(206, 222, 222);
+}
+.button{
+    font-display: flex;
+    align-items: center;
+}
+footer{
+    text-align: center;
+    background-color: #333;
+}
+footer h2{
+    color: orangered;
+    font-family: initial
+}
+footer p{
+    color: rgb(117, 187, 249);
+}
