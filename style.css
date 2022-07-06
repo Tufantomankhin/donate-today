@@ -48,3 +48,46 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.donate-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 0;
+}
+.third-heading{
+    font-size: 50px;
+}
+.donate-text{
+    width: 800px;
+}
+.amount-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.amount-container>div{
+    margin-right: 15px;
+}
+.common-tk{
+    display: inline-block;
+    background-color: rgba(173, 170, 170, 0.2);
+    padding: 50px;
+    border-radius: 5px;
+    font-size: 30px;
+    color: #333;
+    font-weight: 900;
+}
+.select-tk{
+    background-color: rgba(0, 255, 0, 0.1);
+    border: 3px solid rgb(0, 255, 0);
+}
+.other-amount{
+    text-align: center;
+    color: #999;
+}
+hr{
+    width: 55%;
+    background-color: #999;
+}
