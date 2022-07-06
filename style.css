@@ -100,14 +100,18 @@ hr{
     display: flex;
     flex-direction: row;
     padding: 100px;
-    border-radius: 5px;
     font-size: 20px;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
 }
-.donate-type>div{
-    margin-right: 15px;
-    padding: 5px 5px;
+.donate-type{
+    width: 25%;
+    margin-right: 25px;
+    padding: 50px 25px;
+    border-radius: 5px;
+}
+.donate-type:last-child{
+    margin-right: 0;
 }
 .one-type{
     background-color: rgb(230, 253, 245);
@@ -118,7 +122,7 @@ hr{
 .three-type{
     background-color: rgb(253, 209, 209);
 }
-.common-type{
-    
+.contribute-donation{
+
 }
     
