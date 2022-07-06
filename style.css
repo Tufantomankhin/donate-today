@@ -62,12 +62,14 @@ body{
 .donate-text{
     width: 800px;
     text-align: center;
+    margin-bottom: 40px;
 }
 .amount-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 .amount-container>div{
     margin-right: 15px;
@@ -123,6 +125,17 @@ hr{
     background-color: rgb(253, 209, 209);
 }
 .contribute-donation{
+    display: flex;
+    margin-bottom: 150px;
 
+}
+.contribute-text1{
+    float:left;
+}
+.contribute-img1{
+    float:right
+}
+.contribute-text2{
+    float:right
 }
     
