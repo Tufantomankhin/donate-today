@@ -8,12 +8,14 @@ h1{
 h2{
     font-size: 30px;
     text-align: center;
+    
 }
 .flexible-container{
-    display: flex;
+    display: inline-block;
     background-repeat: no-repeat;
-    background-position:0em
+    background: position 50px;
     margin-bottom: 150px;
+    color: aliceblue;
 }
 .div-class{
     text-align: center;
@@ -26,4 +28,10 @@ h2{
     background-image: url(images/donation1.jpg);
     background-repeat: no-repeat;
 
+}
+.bg{
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
