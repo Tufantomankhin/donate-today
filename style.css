@@ -1,12 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-h1{
-    font-size: 60px;
-}
-h2{
-    font-size: 30px;   
-}
 .flexible-container{
     display: flex;
     flex-direction: column;
@@ -14,15 +8,34 @@ h2{
     align-items: center;
     padding: 12% 0;
 }
+.top-heading{
+    font-size: 60px;
+}
+.second-heading{
+    font-size: 30px;   
+}
+.some-text{
+    width: 800px;
+}
+.top-heading,
+.second-heading,
+.some-text,
+.link-button{
+    color: rgb(248, 250, 252);
+}
 .div-class{
     text-align: center;
 }
 .link-button{
     text-decoration: none;
     text-align: center;
+    display:inline-block;
+    background-color: rgb(138, 165, 42);
+    padding: 15px 25px;
+    border-radius: 5px;
 }
 .top-banner{
-    background-image: url(images/donation1.jpg);
+    background-image: linear-gradient(to top, rgba(0,0,0,0.3),rgba(0,0,0,0.5)), url(images/donation1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
