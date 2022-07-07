@@ -1,3 +1,8 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -152,27 +157,40 @@ hr{
     float: left;
 }
 .get-update{
-    display: inline-block;
-    margin-bottom: 0px;
-    width: 500px;
     text-align: center;
+    padding: 80px 0;
 }
-.update-hp{
+.get-update h2{
+    color: #333;
+}
+.update-container{
     display: flex;
-    flex-direction: block;
-    padding: 100px;
-    font-size: 20px;
+    flex-direction: column;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
 }
 .subscribe-email{
-    display: inline-block;
-    text-align: center;
     background-color: rgb(206, 222, 222);
+    width: 700px;
+    padding: 60px 20px;
 }
-.button{
-    font-display: flex;
-    align-items: center;
+.input-email{
+    display: inline-block;
+    position: relative;
+}
+.input-email input{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(240, 231, 231);
+}
+.subscribe-button{
+    display: inline-block;
+    position: absolute;
 }
 footer{
     text-align: center;
